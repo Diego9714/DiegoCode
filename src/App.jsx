@@ -3,7 +3,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Experience from './components/Experience'
 import Portfolio from './components/Portfolio'
-import SocialLinks from "./components/SocialLinks";
+import SocialLinks from "./components/SocialLinks"
+import Contact from "./components/Contact"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Experience/>
       <Portfolio/>
+      <Contact />
       <SocialLinks />
     </>
   )
